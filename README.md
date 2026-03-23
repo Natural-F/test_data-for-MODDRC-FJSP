@@ -69,11 +69,7 @@ This dataset is generated for the multi-objective dynamic dual-resource constrai
 - **Data Structure**: One-dimensional list
 - **Note**: Each worker's threshold is randomly generated within range [300,1000]
 
-## File Naming Convention
-Data files are named using the format `machine=X worker=Y job insert=Z.txt`, where:
-- X is the number of machines (8, 12, or 16)
-- Y is the number of workers (10, 15, or 20)
-- Z is the number of new inserted jobs (100, 200, or 300)
+
 
 ## Usage Instructions
 These datasets can be used to test scheduling algorithms for job shop problems of different scales, especially those considering worker assignment. Processing times depend on both machine and worker combinations, reflecting the complexity of real production environments.
